@@ -1,16 +1,38 @@
-# React + Vite
+Tavasyam – Front-End Developer Technical Screening
+🚀 Live Demo= https://tavasyam-bay.vercel.app/
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+GitHub Repository= https://github.com/cRohinic/Tavasyam
 
-Currently, two official plugins are available:
+Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project was created as part of the Technical Screening Round for the Front-End Developer (React) position at Tavasyam.
+The task involved developing a dashboard based on a Figma design provided by the company.
 
-## React Compiler
+The goal was to:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Recreate the layout and style as closely as possible to the Figma design
 
-## Expanding the ESLint configuration
+Ensure responsiveness across screen sizes
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Maintain clean, reusable, and readable code
+
+Host the project on Vercel for review
+
+🛠️ Tech Stack
+
+React.js (Functional Components + Hooks)
+
+Tailwind CSS (for responsive and modern styling)
+
+Recharts (for data visualization – pie chart)
+
+Vite (for faster development and builds)
+
+📊 Features Implemented
+
+ Fully responsive Dashboard UI
+ Gradient Premium Membership card with matching color palette
+ Goals section styled as per Figma design
+ Schedule section with activity details and icons/images
+ Integrated Pie Chart code using Recharts (currently implemented but not rendering correctly)
+ Deployed on Vercel
