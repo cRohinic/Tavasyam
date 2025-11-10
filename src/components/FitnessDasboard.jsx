@@ -395,7 +395,7 @@ const FitnessDasboard = () => {
                                 <img
                                     src={last}
                                     alt="Premium Fitness"
-                                    className="absolute right-4 bottom-0 w-20 sm:w-28 h-auto object-contain z-20"
+                                    className="absolute right-2 bottom-0 w-20 sm:w-23 h-auto object-contain z-20"
                                 />
                             </div>
                         </div>
