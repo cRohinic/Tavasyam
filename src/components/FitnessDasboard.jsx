@@ -165,27 +165,25 @@ const FitnessDasboard = () => {
                         {/* Left Column - Main Content */}
                         <div className="lg:col-span-2 space-y-4 sm:space-y-6">
                      {/* Hero Banner */}
-<div className="relative bg-gradient-to-r from-orange-500 to-orange-400 rounded-[12px] overflow-hidden flex items-center w-[650px] h-[160px]">
-    {/* Left Text Section */}
-    <div className="relative z-10 w-1/2 p-6 text-white">
-        <h2 className="text-xl font-bold mb-2">Track Your Daily Activities</h2>
-        <p className="text-orange-100 text-sm leading-relaxed">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Lorem ipsum dolor sit amet,
-            consectetur adipiscing elit, sed do eiusmod
-        </p>
-    </div>
+{/* Hero Banner */}
+              <div className="relative bg-gradient-to-r from-orange-500 to-orange-400 rounded-[12px] overflow-hidden flex flex-col sm:flex-row items-center w-full min-h-[160px]">
+                <div className="relative z-10 w-full sm:w-1/2 p-6 text-white">
+                  <h2 className="text-lg sm:text-xl font-bold mb-2">Track Your Daily Activities</h2>
+                  <p className="text-orange-100 text-sm leading-relaxed">
+                    Stay consistent with your goals and monitor your daily fitness habits efficiently.
+                  </p>
+                </div>
 
-    {/* Right Image Section */}
-    <div className="absolute inset-0">
-        <img
-            src={firstImage}
-            alt="Fitness Banner"
-            className="absolute right-0 top-0 h-full w-auto object-cover"
-        />
-        {/* Orange Overlay for blend effect */}
-        <div className="absolute inset-0 bg-gradient-to-r from-orange-500/80 via-orange-500/40 to-transparent"></div>
-    </div>
-</div>
+                <div className="absolute inset-0 sm:static w-full sm:w-1/2">
+                  <img
+                    src={firstImage}
+                    alt="Fitness Banner"
+                    className="absolute right-0 top-0 h-full w-full sm:w-auto object-cover"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-r from-orange-500/80 via-orange-500/40 to-transparent"></div>
+                </div>
+              </div>
+
 
 
                             {/* Stats Cards */}
